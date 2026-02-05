@@ -24,12 +24,3 @@ function crearConfeti() {
         }, 5000);
     }
 }
-                corazon.style.opacity = opacity;
-                corazon.style.transform = `scale(${1 - explosionTime / 2000})`;
-                
-                requestAnimationFrame(() => animateExplosion(explosionTime));
-             else {
-                corazon.remove();
-            };
-        
-        animateLaunch();
